@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-black fixed-top shadow">
       <div className="container">
-        <a className="navbar-brand" href="#">Satya Kola</a>
+        <h3 className="navbar-brand" >Satya Kola</h3>
 
         <div className="nav-left">
           <a href="#about" className="nav-link d-inline text-light m-3">About</a>
