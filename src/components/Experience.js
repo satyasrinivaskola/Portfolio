@@ -16,7 +16,7 @@ function Experience() {
     <p className="role">
       ITC Infotech | Jan 2022 – Mar 2025 | Bengaluru
     </p>
-
+<p>HTML|CSS|JavaScript|ReactJS|Redux</p>
     <p>
       ITC Infotech is a global technology services provider, offering business-friendly
       digital solutions across industries like banking, healthcare, and manufacturing.

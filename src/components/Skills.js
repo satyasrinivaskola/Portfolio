@@ -1,6 +1,6 @@
 const skills = [
   "React", "JavaScript", "HTML", "CSS",
-  "Bootstrap", "Node.js", "SQL", "GitHub"
+  "Bootstrap", "Node.js", "SQL", "GitHub","Redux"
 ];
 
 function Skills() {
