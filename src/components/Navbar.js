@@ -1,5 +1,5 @@
 import './navbar.css'
-import resume from '../Assets/satya_ReactJs_Developer.pdf'
+// import resume from '../Assets/satya_ReactJs_Developer.pdf'
 
 function Navbar() {
   return (
@@ -12,7 +12,7 @@ function Navbar() {
           <a href="#skills" className="nav-link d-inline text-light m-3">Skills</a>
           <a href="#projects" className="nav-link d-inline text-light m-3">Projects</a>
           <a href="#contact" className="nav-link d-inline text-light m-3">Contact</a>
-           <a href={resume} className="nav-link d-inline text-light m-3" > Resume</a>
+          
         </div>
       </div>
     </nav>
