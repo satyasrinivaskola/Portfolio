@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./About.css";
+import photo from '../Assets/satya.jpg'
 function About() {
 
   return (
