@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import "./About.css";
-import photo from '../Assets/SATYA PH20210731_19140763.jpg'
 function About() {
 
   return (
@@ -22,7 +21,7 @@ function About() {
         </p>
 
         <p className="short-note">
-          I have worked on enterprise-level application
+          I have worked on web application
           <strong> Schindler Installation Execution System</strong> where I
           developed component-based UI and integrated frontend with backend
           APIs/microservices.
