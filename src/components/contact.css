@@ -1,0 +1,71 @@
+/* Section spacing */
+#contact {
+  margin-top: 80px;
+}
+
+/* Contact container */
+.contact-box {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+
+.contact-box:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading */
+.contact-box h2 {
+  margin-bottom: 15px;
+}
+
+/* Text */
+.contact-box p {
+  color: #cbd5e1;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.contact-btn {
+  margin-top: 12px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* LinkedIn button */
+.linkedin-btn {
+  background: #2563eb;
+  color: white;
+  margin-right: 10px;
+}
+
+.linkedin-btn:hover {
+  background: #1d4ed8;
+}
+
+/* GitHub button */
+.github-btn {
+  background: #0f172a;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.github-btn:hover {
+  background: #020617;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-box {
+    padding: 20px;
+  }
+}

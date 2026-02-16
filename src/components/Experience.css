@@ -1,0 +1,56 @@
+/* Section spacing */
+#experience {
+  margin-top: 80px;
+  
+}
+li{
+list-style-type: none;}
+/* Experience card */
+.exp-card {
+  background: #1e293b;
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Hover effect */
+.exp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Company / Project name */
+.exp-card h4 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Role */
+.role {
+  color: #60a5fa;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* List */
+.exp-card ul {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.exp-card li {
+  margin-bottom: 6px;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.unorder-list li{
+list-style-type: disc;
+text-align:left}
+/* Responsive */
+@media (max-width: 768px) {
+  .exp-card {
+    padding: 18px;
+  }
+}
